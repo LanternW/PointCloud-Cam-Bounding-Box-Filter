@@ -10,3 +10,21 @@ In config/params.yaml :
     [camera_internal_matrix] is as its name.
     
 point cloud filtered output : /roi_point_cloud
+
+
+Step to install :
+
+    cd catkin_ws/src
+    
+    git clone 
+    
+    cd ..
+    
+    catkin_make
+    
+run :
+    
+    source devel/setup.bash
+    
+    roslaunch pc_measure pc_measure_node.launch
+    
